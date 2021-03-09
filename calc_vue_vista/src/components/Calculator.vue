@@ -219,7 +219,7 @@ export default {
           }
           else {
               if (this.dispValue.length >= 15){
-                  alert("KEY ERROR: Display limit reached");
+                  alert("Es una calculadora con VUE, no un ordenador cuántico.");
               }
               else{
                   this.dispValue += number;
@@ -272,7 +272,7 @@ export default {
           }
           else if (op === "/"){
               if (op2_num == 0){
-                  throw "MATH ERROR: Cannot divide by 0";
+                  throw "¿Que divides entre 0?";
               }
               else{
                   result = op1_num / op2_num;
@@ -284,7 +284,7 @@ export default {
           }
           let temp = result.toString();
           if (temp.length >= 15){
-              throw "DISPLAY ERROR: Computation result will not fit on display. Use C or AC to perform a simpler computation.";
+              throw "Es una calculadora con VUE, no un ordenador cuántico.";
           }
           this.dispValue = temp;
           this.prevValue = "0";
