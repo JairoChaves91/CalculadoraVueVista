@@ -1,3 +1,6 @@
+Ejercicio en el que se crea una calcluladora por componentes utilizando el framework Vue.js y se implementa en una vista.
+
+
 # calc_vue_vista
 
 ## Project setup
